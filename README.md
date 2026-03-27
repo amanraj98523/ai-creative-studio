@@ -4,9 +4,8 @@ This project is a submission-ready prototype that implements two required workfl
 
 ## Live & Repository
 
-- **Live URL**: Add your deployed link here
-- **Repository URL**: Add your GitHub repo link here
-
+- **Live URL**: https://ai-creative-studio-chi.vercel.app/
+- **Repository URL**: https://github.com/amanraj98523/ai-creative-studio
 ---
 
 ## What this app does
