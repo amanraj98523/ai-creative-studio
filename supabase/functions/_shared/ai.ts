@@ -36,7 +36,9 @@ export async function callAiGateway(payload: GatewayPayload) {
       throw new Error("Rate limit reached. Please retry shortly.");
     }
     if (response.status === 402) {
-      throw new Error("Lovable AI credits required. Add workspace usage credits and retry.");
+      throw new Error(
+        "secure environment-based API  credits required. Add workspace usage credits and retry.",
+      );
     }
     throw new Error(`AI gateway failed [${response.status}]: ${text}`);
   }

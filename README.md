@@ -1,6 +1,6 @@
 # Prompt-to-Image Studio (Assignment Prototype)
 
-This project is a submission-ready prototype that implements two required workflows using **Lovable AI + Lovable Cloud backend functions**.
+This project is a submission-ready prototype that implements two required workflows using AI-powered text and image generation APIs, integrated through serverless backend functions and a modern React-based frontend.
 
 ## Live & Repository
 
@@ -34,8 +34,8 @@ Flow: **Upload/URL Image → Analysis → Variation/Similar Generation**
 ## Tech Stack
 
 - **Frontend**: React + TypeScript + Tailwind CSS + shadcn/ui
-- **Backend**: Lovable Cloud Edge Functions
-- **AI**: Lovable AI Gateway (text + image models)
+- **Backend**: Serverless Edge Functions (API orchestration & AI integration)
+- **AI**: AI-powered text (NLP) and image generation models
 
 ---
 
@@ -78,7 +78,7 @@ npm run dev
 
 ### 3. Backend requirements
 
-This project uses Lovable Cloud edge functions and Lovable AI secret provisioning.
+This project uses serverless edge functions for backend processing and secure API key provisioning via environment variables.
 
 ---
 
